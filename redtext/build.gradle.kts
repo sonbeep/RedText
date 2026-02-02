@@ -53,7 +53,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.sonbeep"
                 artifactId = "redtext"
-                version = "v1.0.0"
+                version = "v1.0.1"
             }
         }
     }
