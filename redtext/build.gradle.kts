@@ -27,7 +27,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    
+
     publishing {
         singleVariant("release") {
             withSourcesJar()
@@ -51,11 +51,11 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                
-                groupId = "com.github.nguyenminhson"
+                groupId = "com.github.sonbeep"
                 artifactId = "redtext"
                 version = "v1.0.0"
             }
         }
     }
 }
+
