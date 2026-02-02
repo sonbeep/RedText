@@ -54,7 +54,7 @@ afterEvaluate {
                 
                 groupId = "com.github.nguyenminhson"
                 artifactId = "redtext"
-                version = "1.0.0"
+                version = "v1.0.0"
             }
         }
     }
